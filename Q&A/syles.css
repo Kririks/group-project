@@ -145,19 +145,19 @@ padding-bottom: 5px;
     margin-top: -10px;
     opacity: 0;
     font-size: 20px;
-    color: #444;
+    color: rgba(0, 0, 0, 0.87);
 }
 .spoiler_content p 
 {
     font-weight: normal;
     font-size: 20px;
-    margin: 20px 0;
-    color: #333;
+    margin: 22px 0;
+    color: rgba(0, 0, 0, 0.87);
     line-height: 1.4;
 }
 .spoiler_content.open 
 {
-    margin-top: 0px;
+    margin-top: 10px;
     max-height: 100%;
     opacity: 1;
 }
@@ -165,9 +165,8 @@ padding-bottom: 5px;
 {
     display: inline-block;
     justify-content: flex-end;
-    font-size: 20px;
-    transition: all .3s;
-    vertical-align: middle;
+    font-size: 22px;
+    transition: all 0.3s;
 }
 .spoiler_title .spoiler_arrow svg 
 {
