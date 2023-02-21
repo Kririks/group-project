@@ -85,7 +85,7 @@ body {
     display: flex;
     flex-direction: row;
     margin: 4px;
-    align-items: center;
+    align-items: flex-start;
     
     border: solid 1px white;
     border-radius: 9px;
@@ -114,4 +114,67 @@ body {
     font-weight: normal;
     font-size: 30px;
     margin: 10px;
+}
+.spoiler_wrap 
+{
+    margin: 10px;
+    position: relative;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: normal;
+    background: white;
+    border-radius: 5px;
+    height: fit-content;
+}
+.spoiler_title 
+{
+    cursor: pointer;
+}
+.spoiler_title, .spoiler_content 
+{
+padding-bottom: 5px;
+}
+.spoiler_content 
+{
+    padding-top: 0;
+    padding-bottom: 0px;
+    transition: 0.15s ease-out;
+    height: auto;
+    max-height: 0px;
+    overflow: hidden;
+    margin-top: -10px;
+    opacity: 0;
+    font-size: 20px;
+    color: #444;
+}
+.spoiler_content p 
+{
+    font-weight: normal;
+    font-size: 20px;
+    margin: 20px 0;
+    color: #333;
+    line-height: 1.4;
+}
+.spoiler_content.open 
+{
+    margin-top: 0px;
+    max-height: 100%;
+    opacity: 1;
+}
+.spoiler_title .spoiler_arrow 
+{
+    display: inline-block;
+    justify-content: flex-end;
+    font-size: 20px;
+    transition: all .3s;
+    vertical-align: middle;
+}
+.spoiler_title .spoiler_arrow svg 
+{
+    fill: #BE3455;
+    width: 20px;
+}
+.spoiler_title .spoiler_arrow.open 
+{
+    transform: rotate(180deg);
 }
