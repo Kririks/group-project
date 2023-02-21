@@ -168,6 +168,12 @@ padding-bottom: 5px;
     font-size: 22px;
     transition: all 0.3s;
 }
+.spoiler_arrow
+{
+    position: absolute;
+    right: 0;
+    top: 7px;
+}
 .spoiler_title .spoiler_arrow svg 
 {
     fill: #BE3455;
