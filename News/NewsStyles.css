@@ -50,10 +50,52 @@ body
    padding-left: 30px;
    padding-top: 40px;
    padding-bottom: 40px;
+   padding-right: 15px;
    background-color: white;
    width: 60%;
    
    font-size: 20px;
    border: 1px solid #BE3455;
    border-radius: 10px;
+}
+.content_description
+{
+    padding-top: 11px;
+
+    font-size: 22px;
+}
+.back_button
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+    margin-left: 325px;
+    padding: 6px;
+
+    font-size: 20px;
+    border: 1px solid rgb(240, 235, 235);
+    border-radius: 7px;
+    width: 8%;
+
+    transition: 0.1s;
+}
+.back_button:hover 
+{
+    background-color: #BE3455;
+    color: white;
+
+    transition: 0.1s;
+}
+.back_button_arrow
+{
+    padding: 4px;
+    border: 1px solid #BE3455;
+    border-radius: 5px;
+
+    color: white;
+    background-color: #BE3455;
+}
+.back_button_name
+{
+    padding: 3px;
 }

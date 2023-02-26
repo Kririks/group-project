@@ -65,7 +65,7 @@ body
 }
 .content_description
 {
-    padding-top: 11px;
-
+    margin-top: 3px;
     font-size: 22px;
+    color: rgba(0, 0, 0, 0.8);
 }
