@@ -1,0 +1,114 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: rgba(0, 0, 0, 0.87);
+    margin: 0;
+    background-color: rgb(245, 242, 242);
+    font-family: Calibri;
+}
+#page
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.title
+{
+    margin-top: 150px;
+    margin-left: 295px;
+
+    font-size: 55px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.7);
+}
+.info_widow
+{
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 15%;
+    width: 60%;
+    background: linear-gradient(25deg, white, #be3455);
+    padding: 10px;
+}
+.socials
+{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+.telegram
+{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    align-items: center;
+}
+.vk
+{   
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    align-items: center;
+}
+.socials_and_email
+{
+    display: flex;
+    flex-direction: row;
+}
+.email
+{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    margin: 35px;
+    margin-left: 25%;
+    text-decoration: underline rgba(255, 88, 127, 0.5);
+}
+.social_name
+{
+    margin-left: 30px;
+
+    font-size: 25px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.7);
+}
+.email_info
+{
+    display: flex;
+    flex-direction: column;
+}
+.email_adress
+{
+    margin: 15px;
+    margin-left: 32px;
+    width: 100%;
+
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.warning
+{
+    width: 80%;
+    margin: 15px;
+    margin-top: 150px;
+    border-radius: 10px;
+    background-color: #be3455;
+    padding: 20px;
+    padding-left: 60px;
+    padding-right: 40px;
+
+    font-size: 18px;
+    color: white;
+}
+.info_column
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
